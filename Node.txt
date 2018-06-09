@@ -1,0 +1,44 @@
+Node.js
+==============
+Node is the java script runtime environment outside the browser.
+Node is use for creating backend services.
+
+It is mostly use for Highly scalable, data intensive and real time application.
+It is very easy to use prototyping and in agile development.
+Paypal, uber, netflix etc
+
+Using Node a complete web application can be written in java script. making complete code cleaner.
+
+Browser has java script engine which converts Java script code into machine code.
+
+Node exe has inbuilt java script engine made over chrome v8 engine to run java script code. it also has additional java script 
+API's which provides additional capabilities which browser doesn't have.
+
+It is not a framework but it is just a rumtime environment for executing the java script code.
+
+It is based on Non-Asynchronous nature. It has single thread which handle multiple request.
+
+It maintain event queue in the backend and responds to the event once they are ready like Data ready event.
+
+Should not use for the CPU intensive application.
+
+
+===================
+mkdir firstapp
+open in the visual studio code.
+firstapp> code .
+run the java script file on terminal
+..> node hello.js
+
+===============
+
+Node Module System -
+Every file in the node module system is considered as module. like app.js file is 1 module.
+All the variables and functions can only be access in tht module so they are like private. 
+to access them in different module then we need to make them public.
+
+
+
+===============
+Global objects in java
+- console.log(), setTimeout() etc
